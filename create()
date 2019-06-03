@@ -1,0 +1,6 @@
+
+In app.php line 233:
+                                                                      
+  syntax error, unexpected '...' (T_ELLIPSIS), expecting end of file  
+                                                                      
+
