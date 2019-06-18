@@ -35,6 +35,10 @@
 	</tbody>
 </table>
 
-
+<script>
+  $(document).ready(function() {
+    $('#table').DataTable();
+} );
+ </script>
 
 @endsection

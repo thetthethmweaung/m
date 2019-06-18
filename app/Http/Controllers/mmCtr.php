@@ -14,7 +14,7 @@ class mmCtr extends Controller
      */
     public function index()
     {
-                $nationality=Nat::all();
+    $nationality=Nat::all();
         return view('index',compact('nationality'));   
 
     }
@@ -26,7 +26,7 @@ class mmCtr extends Controller
      */
     public function create()
     {
-        return view('mmCn');
+        return view('mmView');
     }
 
     /**

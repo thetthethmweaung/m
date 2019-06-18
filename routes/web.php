@@ -15,7 +15,7 @@ use App\Nat;
 
 Route::get ( '/', function () {
     $nationality = Nat::all ();
-    return view ('registerForm')->withData ( $nationality );
+    return view ('mmCn')->withData ( $nationality );
 } );
 
 Route::resource('mmCn','mmCtr');
